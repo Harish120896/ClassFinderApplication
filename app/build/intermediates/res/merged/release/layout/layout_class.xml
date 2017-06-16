@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/card_view">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/className"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Class One"
+        android:padding="10dp"/>
+</android.support.v7.widget.CardView>

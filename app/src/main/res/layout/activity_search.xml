@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.classfinder.SearchActivity"
+    android:background="#e8e8e7"
+    android:weightSum="1">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Find your class!  "
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:textColor="#151619"/>
+    <Spinner
+        android:id="@+id/Class_Selector"
+        android:layout_width="326dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.10"
+        android:entries="@array/class_arrays"
+        android:prompt="@string/class_prompt" />
+    <Spinner
+        android:id="@+id/Place_Selector"
+        android:layout_width="326dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.10"
+        android:entries="@array/places_arrays"
+        android:prompt="@string/place_prompt" />
+
+    <Button
+        android:id="@+id/search_specified_classes"
+        android:layout_width="326dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:elevation="8dp"
+        android:text="Search"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ClassFinder</string>
+    <string name="class_prompt">Choose a Class</string>
+    <string name="place_prompt">Choose a Place</string>
+    <string name="google_maps_key">AIzaSyBueA1o6KmIV9FVTrVJA4VLUTYKl65I-do</string>
+    <string-array name="class_arrays">
+        <item>Karate</item>
+        <item>Tailoring</item>
+        <item>Swimming</item>
+        <item>Dance</item>
+        <item>Music</item>
+        <item>Yoga</item>
+        <item>ArtClass</item>
+        <item>Badminton</item>
+        <item>Cricket</item>
+        <item>ChessCoaching</item>
+    </string-array>
+    <string-array name="places_arrays">
+        <item>Chennai</item>
+    </string-array>
+    <string name="title_activity_search_result">Map</string>
+</resources>

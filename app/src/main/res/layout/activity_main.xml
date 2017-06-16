@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.classfinder.MainActivity"
+    android:background="#e8e8e7"
+    android:weightSum="1">
+//#4f5154
+//#e8e8e7 #1a1b1e
+    //#151619
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/bluesearchicon"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.22" />
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Class Finder"
+        android:textAlignment="center"
+        android:textColor="#151619"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/Search"
+        android:background = "@drawable/btn"
+        android:textColor="#ffffff"
+        android:layout_width="323dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="326dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:elevation="8dp"
+        android:text="Register"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Hk private Ltd"
+        android:textAlignment="center"
+        android:textColor="#151619"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

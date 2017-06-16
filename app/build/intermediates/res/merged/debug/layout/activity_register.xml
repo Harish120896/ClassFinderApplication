@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greybackground"
+    tools:context="com.example.admin.classfinder.RegisterActivity">
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register your class!  "
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:textColor="#151619"/>
+    <EditText
+        android:id="@+id/InstitiName"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Institute Name"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:id="@+id/Class_Selector_Search"
+        android:layout_width="326dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:entries="@array/class_arrays"
+        android:prompt="@string/class_prompt" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Address within chennai region"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Contact_Number"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:hint="Contact Number"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Register_Institute"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:background="@drawable/btn"/>
+</LinearLayout>
